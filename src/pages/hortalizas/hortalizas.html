@@ -1,0 +1,68 @@
+<!--
+  Generated template for the HortalizasPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="firstT">
+  <ion-navbar class="header-menu">
+    <ion-title >HORTALIZAS</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding class="fondoho">
+   
+  <ion-grid>
+    <ion-row>
+      <ion-col col >
+        <div  class="space_I" *ngFor="let hortaliza of hortalizas" (click)="pruebaAudio(hortaliza)">
+          <ion-grid>
+              
+                <ion-row> 
+                  <ion-col style="text-align: center;" >
+                    <div style="text-align: center;"><img class="c_img" [src]="hortaliza.imagen"></div>
+                  </ion-col>
+                </ion-row>
+            </ion-grid>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!--<ion-grid class="class_grid">
+        <ion-row align-items-center >
+          <ion-col class="col-6" *ngFor="let hort of hor" (click)="reproducir(hort)">
+              <img [src]="hort.imagen" width="48" height="120">
+              <div class="bg_name"><p>{{hort.titulo}}</p></div>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>
+  <!--div class="container">
+    <div class="row">
+      <div class="col-2">
+
+      </div>
+      <div class="col">
+        <ion-grid>
+          <ion-row>
+            <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+              <ion-card class="fon" *ngFor="let hort of hor" (click)="reproducir(hort)">
+                <h2>{{hort.titulo}}</h2>
+                <img [src]="hort.imagen" width="100" height="250">
+                <!--<div class="card-title"><ion-icon name="play" *ngIf="!hort.reproduciendo"item-right=""></ion-icon></div>-->
+                <!--<div class="card-subtitle"><ion-icon name="pause" *ngIf="hort.reproduciendo"item-right=""></ion-icon></div>-->
+              <!--/ion-card>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
+      </div>
+      <div class="col-2">
+
+      </div>
+    </div>
+  </div-->
+
+
+</ion-content>

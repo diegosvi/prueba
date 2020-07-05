@@ -1,0 +1,63 @@
+<!--
+  Generated template for the PecesPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header class="firstT">
+    <ion-navbar class="header-menu">
+      <ion-title style="color: white">PECES</ion-title>
+    </ion-navbar>
+  </ion-header>
+
+
+<ion-content padding class="fondopec">
+
+  <ion-grid>
+    <ion-row>
+      <ion-col col >
+        <div  class="space_I" *ngFor="let pez of peces" (click)="pruebaAudio(pez)">
+          <ion-grid>
+              
+                <ion-row> 
+                  <ion-col style="text-align: center;">
+                    <div style="text-align: center;"><img class="c_img" [src]="pez.imagen"></div>
+                  </ion-col>
+                </ion-row>
+            </ion-grid>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <!--  <ion-grid class="class_grid">
+        <ion-row align-items-center >
+          <ion-col class="col-6" *ngFor="let peces of pez" (click)="reproducir(peces)">
+              <img [src]="peces.imagen" width="48" height="120">
+              <div class="bg_name"><p>{{peces.titulo}}</p></div>
+          </ion-col>
+        </ion-row>
+        
+      </ion-grid>
+ div class="container">
+    <div class="row">
+      <div class="col-2">
+
+      </div>
+      <div class="col">
+        <ion-grid>
+          <ion-row>
+              <ion-card class="fon" *ngFor="let peces of pez" (click)="reproducir(peces)">
+                <h2>{{peces.titulo}}</h2>
+                <img [src]="peces.imagen" width="100" height="250">
+                <!--<div class="card-title"><ion-icon name="play" *ngIf="!peces.reproduciendo"item-right=""></ion-icon></div>-->
+                <!--<div class="card-subtitle"><ion-icon name="pause" *ngIf="peces.reproduciendo"item-right=""></ion-icon></div>-->
+              <!--/ion-card>
+          </ion-row>
+        </ion-grid>
+      </div>
+      <div class="col-2">
+
+      </div>
+    </div>
+  </div-->
+</ion-content>

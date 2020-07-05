@@ -1,0 +1,60 @@
+page-practica {
+
+  .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border-width: 0 0 0.55px;
+    background-color: #005448;
+  }
+
+  .header-md .toolbar-md:last-child .toolbar-background-md {
+    border-width: 0 0 0.55px;
+    background-color: #005448;
+  }
+  .toolbar-title-md {
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fefefe;
+  }
+
+  .toolbar-title-ios {
+    padding: 0 12px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fefefe;
+  }
+
+  .imagen{
+    height: 85px;
+    width: 100px;
+    //background-image: url("../../assets/img/pri/fondo.jpg");
+  }
+  .pract{
+  
+    background-image: url("../../assets/img/aprendo.gif");
+  }
+  
+  h1{
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  .ion-app.md [padding] .scroll-content {
+    padding-top: 0px;
+  }
+  
+  .btn_menu{
+      height: 22rem;
+      width: 30rem;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 30px;
+    }
+  
+    .c_img {
+      width:80%;
+    }
+  
+  
+}

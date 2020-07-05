@@ -1,0 +1,76 @@
+page-adivina {
+
+    .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+        border-width: 0 0 0.55px;
+        background-color: #005448;
+      }
+    
+      .header-md .toolbar-md:last-child .toolbar-background-md {
+        border-width: 0 0 0.55px;
+        background-color: #005448;
+      }
+      .toolbar-title-md {
+        padding: 0 12px;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fefefe;
+      }
+    
+      .toolbar-title-ios {
+        padding: 0 12px;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fefefe;
+      }
+    
+      .icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        color: #d6e015 !important;
+      }
+    
+      .back-button-text-ios {
+        letter-spacing: 0.2em;
+        color: #d6e015;
+        padding-left: 17%;
+      }
+
+    .cls_title{
+        color: #000;
+        font-size: 18px;
+        font-family: 'Kalam';
+    }
+
+    .cls_number{
+        color: #000;
+        font-size: 60px;
+        font-family: 'Kalam';
+    }
+
+    .c_img{
+        width: 34%;
+    }
+
+    .cls_adiviBtn {
+        /* border-radius: 100%; */
+        /* padding: 0 0; */
+        /* border-bottom: 50px; */
+        width: 130px;
+        height: 130px;
+        color:  white;
+        background-color: #6e107e;
+        margin: 5px;
+        padding: 10px;
+        /* -webkit-border-radius: 50px; */
+        -moz-border-radius: 50px;
+        border-radius: 95px;
+        font-size: 11px;
+        font-family: 'Kalam';
+        /* line-height: 32px; */
+        /* text-transform: uppercase; */
+        /* float: left; */
+    }
+
+}
